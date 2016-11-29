@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" data-ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title data-ng-bind="title">ACMilan - Ticketing</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <base href="/">
+
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- endinject -->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container  webshop-header">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="float:left; background-color:#000000;">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            Logo
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse navbar-right">
+
+            Right
+
+        </div>
+    </div>
+</nav>
+
+<div class="container body" role="main">
+    <div style="min-height: 600px; margin-bottom: 30px">
+
+        <div data-ui-view></div>
+    </div>
+</div>
+
+<div data-ngplus-overlay data-ngplus-overlay-animation="dissolve-animation">...</div>
+
+<!-- bower:js -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/angular-touch/angular-touch.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<!-- endbower -->
+
+<!-- inject:js -->
+<script src="app/app.module.js"></script>
+<script src="app/app.values.js"></script>
+<script src="app/app.run.js"></script>
+<script src="app/app.constants.js"></script>
+<script src="app/app.config.js"></script>
+<!-- endinject -->
+
+</body>
+</html>

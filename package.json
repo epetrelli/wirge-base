@@ -1,0 +1,46 @@
+{
+  "name": "com.wirge.base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "*",
+    "gulp": "*",
+    "gulp-angular-filesort": "*",
+    "gulp-angular-templatecache": "*",
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-filter": "*",
+    "gulp-flatten": "*",
+    "gulp-htmlmin": "*",
+    "gulp-imagemin": "*",
+    "gulp-inject": "*",
+    "gulp-jshint": "*",
+    "gulp-live-server": "*",
+    "gulp-main-bower-files": "*",
+    "gulp-minify-css": "*",
+    "gulp-modify-css-urls": "*",
+    "gulp-natural-sort": "*",
+    "gulp-ng-annotate": "*",
+    "gulp-rename": "*",
+    "gulp-rev": "*",
+    "gulp-uglify": "*",
+    "jshint": "*",
+    "live-server": "*",
+    "main-bower-files": "*",
+    "wiredep": "*"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://git.ticketone.it/acmi/acmi-mep-cli-webshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://git.ticketone.it/acmi/acmi-mep-cli-webshop/issues"
+  },
+  "homepage": "https://git.ticketone.it/acmi/acmi-mep-cli-webshop"
+}

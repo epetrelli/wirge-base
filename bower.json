@@ -1,0 +1,40 @@
+{
+  "name": "com.wirge.base",
+  "description": "",
+  "main": "Gulpfile.js",
+  "authors": [
+    "Enrico Petrelli <enrico.petrelli@wirge.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "moduleType": [
+    "es6"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.9",
+    "bootstrap": "~3.3.6",
+    "angular-animate": "~1.5.9",
+    "angular-cookies": "~1.5.9",
+    "angular-resource": "~1.5.9",
+    "angular-route": "~1.5.9",
+    "angular-sanitize": "~1.5.9",
+    "angular-touch": "~1.5.9",
+    "angular-bootstrap": "^2.3.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ],
+      "dist": "dist/js/bootstrap.js"
+    }
+  }
+}
