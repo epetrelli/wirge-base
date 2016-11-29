@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title data-ng-bind="title">ACMilan - Ticketing</title>
+    <title data-ng-bind="title">Sicurauto - demo</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <base href="/">
@@ -14,38 +14,260 @@
 
     <!-- inject:css -->
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="bower_components/ekko-lightbox/dist/ekko-lightbox.min.css">
     <!-- endinject -->
+
+
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container  webshop-header">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="float:left; background-color:#000000;">
-                <span class="sr-only">Toggle navigation</span>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-
-            Logo
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png">
+            </a>
         </div>
-
-        <div id="navbar" class="navbar-collapse collapse navbar-right">
-
-            Right
-
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav pull-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">Azienda</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
         </div>
     </div>
 </nav>
 
-<div class="container body" role="main">
-    <div style="min-height: 600px; margin-bottom: 30px">
+<div class="container" style="min-height:2000px;">
+    <h1>VOLVO V90 D4 Geartronic Momentum</h1>
+    <h2>Dimostrativa Km0 2016</h2>
 
-        <div data-ui-view></div>
+    <div class="row">
+
+        <div class="col-md-4">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="images/auto_00.jpg" class="img-responsive img-rounded">
+                </div>
+            </div>
+
+            <h4>Immagini auto</h4>
+
+            <div class="thumbs">
+                <div class="row">
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_01.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_02.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_03.JPG"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_04.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_05.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_06.JPG"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_07.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_08.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_09.JPG"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_10.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_11.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_12.JPG"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_13.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_14.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/auto_15.JPG"></div>
+                </div>
+            </div>
+
+            <h4>Immagini optional</h4>
+            <div class="thumbs">
+                <div class="row">
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_00.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_01.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_02.JPG"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_03.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_04.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_05.JPG"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_06.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_07.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_08.JPG"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_09.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_10.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_11.JPG"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_12.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_13.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_14.JPG"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_15.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_16.JPG"></div>
+                    <div class="col-xs-4"><img class="img-responsive img-rounded" src="images/accessori_17.JPG"></div>
+                </div>
+            </div>
+
+
+
+            <h4>Caratteristiche</h4>
+            <dl class="dl-horizontal">
+                <dt>Tipologia</dt>
+                <dd>Dimostrativa</dd>
+                <dt>KM Percorsi</dt>
+                <dd>0</dd>
+                <dt>Immatricolazione</dt>
+                <dd>10-2016</dd>
+                <dt>Cambio</dt>
+                <dd>Automatico</dd>
+                <dt>Colore Esterno</dt>
+                <dd>Osmium Grey Metallizzato</dd>
+                <dt>Colore Interno</dt>
+                <dd>Antracite</dd>
+                <dt>Tipo Interno</dt>
+                <dd>Pelle Nappa</dd>
+                <dt>Scheda Sicurauto n°</dt>
+                <dd>123456</dd>
+            </dl>
+        </div>
+        <div class="col-md-5">
+
+            <table class="table">
+                <tbody>
+                <tr class="strong">
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Listino modello base</td>
+                    <td class="text-right" nowrap>€ 67.961</th>
+                </tr>
+                <tr>
+                    <td colspan="4" class="h4">Optionals</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="glyphicon glyphicon-gift"></i></a></td>
+                    <td><a href="#"><i class="glyphicon glyphicon-picture"></i></a></td>
+                    <td><a href="#">Pacchetto Vision <i class="glyphicon glyphicon-info-sign"></i></a></td>
+                    <td class="text-right" nowrap>€ 900</td>
+                </tr>
+
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><a href="#"><i class="glyphicon glyphicon-picture"></i></a></td>
+                    <td><a href="#">Tetto apribile panoramico in cristallo laminato a co... <i class="glyphicon glyphicon-info-sign"></i></a></td>
+                    <td class="text-right" nowrap>€ 1.620</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="glyphicon glyphicon-gift"></i></a></td>
+                    <td><a href="#"><i class="glyphicon glyphicon-picture"></i></a></td>
+                    <td><a href="#">Climatizzatore automatico a controllo elettronico a ... <i class="glyphicon glyphicon-info-sign"></i></a></td>
+                    <td class="text-right" nowrap>€ 740</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td><a href="#">Head-Up Display <i class="glyphicon glyphicon-info-sign"></i></a></td>
+                    <td class="text-right" nowrap>€ 1.350</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="glyphicon glyphicon-gift"></i></a></td>
+                    <td><a href="#"><i class="glyphicon glyphicon-picture"></i></a></td>
+                    <td><a href="#">Pacchetto Winter <i class="glyphicon glyphicon-info-sign"></i></a></td>
+                    <td class="text-right" nowrap>€ 345</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="glyphicon glyphicon-gift"></i></a></td>
+                    <td><a href="#"><i class="glyphicon glyphicon-picture"></i></a></td>
+                    <td><a href="#">Visual Park Assist 360° <i class="glyphicon glyphicon-info-sign"></i></a></td>
+                    <td class="text-right" nowrap>€ 1.130</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="glyphicon glyphicon-gift"></i></a></td>
+                    <td><a href="#"><i class="glyphicon glyphicon-picture"></i></a></td>
+                    <td><a href="#">Park Assist Camera (Inclusa con Visual Park Assist 3... <i class="glyphicon glyphicon-info-sign"></i></a></td>
+                    <td class="text-right" nowrap>€ 0</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="glyphicon glyphicon-gift"></i></a></td>
+                    <td><a href="#"><i class="glyphicon glyphicon-picture"></i></a></td>
+                    <td><a href="#">Cerchi in lega da 20" a 8 razze Diamond Cut/Argento ... <i class="glyphicon glyphicon-info-sign"></i></a></td>
+                    <td class="text-right" nowrap>€ 1.830</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="glyphicon glyphicon-gift"></i></a></td>
+                    <td><a href="#"><i class="glyphicon glyphicon-picture"></i></a></td>
+                    <td><a href="#">Intellisafe Surround <i class="glyphicon glyphicon-info-sign"></i></a></td>
+                    <td class="text-right" nowrap>€ 610</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="glyphicon glyphicon-gift"></i></a></td>
+                    <td><a href="#"><i class="glyphicon glyphicon-picture"></i></a></td>
+                    <td><a href="#">Volvo On Call (Servizio telematico satellitare di em... <i class="glyphicon glyphicon-info-sign"></i></a></td>
+                    <td class="text-right" nowrap>€ 1.040</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="glyphicon glyphicon-gift"></i></a></td>
+                    <td><a href="#"><i class="glyphicon glyphicon-picture"></i></a></td>
+                    <td><a href="#">Pacchetto Versatily Pro <i class="glyphicon glyphicon-info-sign"></i></a></td>
+                    <td class="text-right" nowrap>€ 1.000</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="glyphicon glyphicon-gift"></i></a></td>
+                    <td><a href="#"><i class="glyphicon glyphicon-picture"></i></a></td>
+                    <td><a href="#">Apple CarPlay <i class="glyphicon glyphicon-info-sign"></i></a></td>
+                    <td class="text-right" nowrap>€ 370</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Cristalli laterali e vano bagagli laminati antisfond...</td>
+                    <td class="text-right" nowrap>€ 370</td>
+                </tr>
+                <tr>
+                    <td style="border-top: solid 1px #000000;">&nbsp;</td>
+                    <td style="border-top: solid 1px #000000;">&nbsp;</td>
+                    <td style="border-top: solid 1px #000000;">Totale con optionals</td>
+                    <td style="border-top: solid 1px #000000;"class="text-right" nowrap>€ 67.961</th>
+                </tr>
+                <tr class="strong">
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td><h4>Sconto</h4></td>
+                    <td><h4 class="text-right" nowrap>18%</h4></th>
+                </tr>
+                <tr class="strong">
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td><h4>Prezzo Sicurauto</h4></td>
+                    <td class="text-right" nowrap><h4>€ 67.961</h4></th>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-3">
+
+            <div class="well">
+                <h4>Prezzo Sicurauto</h4>
+                <h5 class="text-right">€ 68.900</h5>
+            </div>
+
+        </div>
     </div>
-</div>
 
-<div data-ngplus-overlay data-ngplus-overlay-animation="dissolve-animation">...</div>
+</div>
 
 <!-- bower:js -->
 <script src="bower_components/angular/angular.js"></script>
@@ -58,6 +280,7 @@
 <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
 <script src="bower_components/angular-touch/angular-touch.js"></script>
 <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="bower_components/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
 <!-- endbower -->
 
 <!-- inject:js -->
@@ -68,5 +291,14 @@
 <script src="app/app.config.js"></script>
 <!-- endinject -->
 
+<script type="text/javascript" defer="defer">
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 10) {
+            $('nav').addClass('shrink');
+        } else {
+            $('nav').removeClass('shrink');
+        }
+    });
+</script>
 </body>
 </html>

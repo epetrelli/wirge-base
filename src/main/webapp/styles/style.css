@@ -1,0 +1,55 @@
+body {
+    padding-top: 50px;
+}
+
+nav.navbar, nav img{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+nav a {
+    font-size: 18px;
+}
+
+nav .navbar-toggle {
+    margin: 13px 15px 13px 0;
+}
+
+a.navbar-brand{
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+nav        .navbar-brand img {
+    height: 40px;
+}
+nav.shrink .navbar-brand img {
+    height: 20px;
+}
+
+nav.navbar.shrink {
+    min-height: 0px;
+}
+
+nav.shrink a {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-size: 15px;
+}
+
+
+nav.shrink .navbar-toggle {
+    padding: 4px 5px;
+    margin: 8px 15px 8px 0;
+}
+div.thumbs {
+    padding: 0 10px;
+}
+div.thumbs div.row div{
+    padding:5px;
+}

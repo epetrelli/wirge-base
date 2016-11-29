@@ -21,10 +21,7 @@ var htmlmin = require('gulp-htmlmin');
 var templateCache = require('gulp-angular-templatecache');
 
 var DEV_DIR = './src/main/webapp/';
-var INJECT_SCRIPTS = [
-    DEV_DIR + 'app/**/*.js',
-    '!' + DEV_DIR + 'app/blocks/templates/blocks.templates.run.js',
-    DEV_DIR + 'scripts/jquery.seatmap.js'];
+var INJECT_SCRIPTS = [DEV_DIR + 'app/**/*.js'];
 var PUBLISH_PORT = 8082;
 
 var server;
@@ -62,7 +59,7 @@ gulp.task('inject', ['index-clean', 'index-rename'], function () {
 
         .pipe(gulp.dest(DEV_DIR))
         .pipe(inject(gulp.src(INJECT_SCRIPTS, {read: true}).pipe(angularFilesort()), {relative: true}))
-        .pipe(inject(gulp.src([DEV_DIR + 'styles/**/*.css'], {read: false}), {relative: true}))
+        .pipe(inject(gulp.src([DEV_DIR + 'styles/**/*.css', DEV_DIR + 'bower_components/ekko-lightbox/**/*.min.css'], {read: false}), {relative: true}))
         .pipe(gulp.dest(DEV_DIR));
 });
 
