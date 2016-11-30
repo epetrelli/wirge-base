@@ -22,7 +22,7 @@ var templateCache = require('gulp-angular-templatecache');
 
 var DEV_DIR = './src/main/webapp/';
 var INJECT_SCRIPTS = [DEV_DIR + 'app/**/*.js'];
-var PUBLISH_PORT = 8082;
+var PUBLISH_PORT = 8081;
 
 var server;
 

@@ -26,8 +26,7 @@
     "angular-route": "~1.5.9",
     "angular-sanitize": "~1.5.9",
     "angular-touch": "~1.5.9",
-    "angular-bootstrap": "^2.3.0",
-    "ekko-lightbox": "^5.0.0"
+    "angular-bootstrap": "^2.3.0"
   },
   "overrides": {
     "bootstrap": {
